@@ -34,7 +34,6 @@
             cursor: pointer;
             text-align: center;
             padding-top: 40px;
-            /*line-height: 88px;*/
             border-radius: 50%;
             color: #fff;
             transform: translate(-50%, -50%)
@@ -85,8 +84,6 @@
                 this.style.display = 'none';
             }
         });
-
-
 
         function main(imgObj) {
             cvs.width = imgObj.sky.width;
@@ -163,9 +160,7 @@
             // })()
 
             //定时器,来更新画布中的元素
-            timer();
 
-            function timer() {
                 var timer = setInterval(function () {
                     if (flag) {
                         //每次循环的时候清除一下画布
@@ -189,7 +184,6 @@
                     }
                 }, 1000 / 30)
             }
-        }
         //判断小鸟是否碰到所画的路径
         function judge() {
             var bird = new Bird();
@@ -202,7 +196,5 @@
             }
         }
     </script>
-
 </body>
-
 </html>
