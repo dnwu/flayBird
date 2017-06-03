@@ -1,2 +1,2 @@
-# flayBird
+# canvasBird
 canvas像素鸟
